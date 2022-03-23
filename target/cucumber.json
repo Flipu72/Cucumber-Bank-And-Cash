@@ -1,0 +1,318 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9227016000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TFStepDefinitions.beforeRun()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "User should be able to create new account from Bank and Cash",
+        "description": "",
+        "id": "techfios-bank-and-cash-add-contact-functionality-validation;user-should-be-able-to-create-new-account-from-bank-and-cash",
+        "after": [
+          {
+            "result": {
+              "duration": 4455092400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "TFStepDefinitions.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 352949200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is on the techfios login page",
+            "match": {
+              "location": "TFStepDefinitions.user_is_on_the_techfios_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3721671300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters the username as \"demo@techfios.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "demo@techfios.com",
+                  "offset": 29
+                }
+              ],
+              "location": "TFStepDefinitions.user_enters_the_username_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3266857800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enters the password as \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc123",
+                  "offset": 29
+                }
+              ],
+              "location": "TFStepDefinitions.user_enters_the_password_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3632109900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks on signin button",
+            "match": {
+              "location": "TFStepDefinitions.user_clicks_on_signin_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 317927500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User should land on Dashboard page",
+            "match": {
+              "location": "TFStepDefinitions.user_should_land_on_dashboard_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1094127400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User clicks on BankCash button",
+            "match": {
+              "location": "TFStepDefinitions.user_clicks_on_bankcash_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1803296700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User clicks on New Account button",
+            "match": {
+              "location": "TFStepDefinitions.user_clicks_on_new_accounts_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 274635000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User should land on Accounts page",
+            "match": {
+              "location": "TFStepDefinitions.user_should_land_on_Accounts_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 348307400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enters Account Title as\"Business\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Business",
+                  "offset": 29
+                }
+              ],
+              "location": "TFStepDefinitions.user_enters_account_title_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 274886500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enters Description as \"Checking\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Checking",
+                  "offset": 28
+                }
+              ],
+              "location": "TFStepDefinitions.user_enters_description_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 277509600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enters Initial Balance as\"25000.00\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "25000.00",
+                  "offset": 31
+                }
+              ],
+              "location": "TFStepDefinitions.user_enters_initial_balance_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 349680200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User enters Account Number as\"000111222\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "000111222",
+                  "offset": 30
+                }
+              ],
+              "location": "TFStepDefinitions.user_enters_account_number_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 240391100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User enters Contact as \"Mark Doe\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mark Doe",
+                  "offset": 24
+                }
+              ],
+              "location": "TFStepDefinitions.user_enters_contact_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 241349800,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User enters Phone as \"817252\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "817252",
+                  "offset": 22
+                }
+              ],
+              "location": "TFStepDefinitions.user_enters_phone_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 318464200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User enters Internet Banking URL as\"bankurl\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "bankurl",
+                  "offset": 36
+                }
+              ],
+              "location": "TFStepDefinitions.user_enters_internet_banking_url_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2278036200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User clicks on submit button",
+            "match": {
+              "location": "TFStepDefinitions.user_clicks_on_submit_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 41500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User should be able to validate account created successfully",
+            "match": {
+              "location": "TFStepDefinitions.user_should_be_able_to_validate_account_created_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@Scenario1"
+          }
+        ]
+      }
+    ],
+    "name": "Techfios Bank and Cash Add Contact functionality Validation",
+    "description": "",
+    "id": "techfios-bank-and-cash-add-contact-functionality-validation",
+    "keyword": "Feature",
+    "uri": "src/test/java/features/TFBankANdCash.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@AddContactFeature"
+      },
+      {
+        "line": 1,
+        "name": "@Test2"
+      }
+    ]
+  }
+]
